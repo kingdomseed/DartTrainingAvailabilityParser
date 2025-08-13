@@ -38,14 +38,14 @@ cat scripts/availability.txt | dart run scripts/parse_availability.dart > script
 Input line:
 
 ```
-19:00 - 21:30, Dienstag, 12.08. / Tuesday, August 12	Joseph Reign	Tahil
+19:00 - 21:30, Dienstag, 12.08. / Tuesday, August 12	Bob Smith
 ```
 
 Produces columns like:
 
 ```
 Name,12.08 19:00 Tue
-Joseph Reign Tahil,1
+Bob Smith,1
 ```
 
 ### Notes
